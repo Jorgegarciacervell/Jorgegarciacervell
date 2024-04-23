@@ -1,16 +1,101 @@
-### Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Zapatillas - Sitio Web</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+  </style>
+</head>
+<body class="w3-light-grey">
 
-<!--
-**Jorgegarciacervell/Jorgegarciacervell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Zapatillas</b> Store</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Sobre Nosotros</a>
+      <a href="#shop" class="w3-bar-item w3-button">Tienda</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
+    </div>
+  </div>
+</div>
 
-Here are some ideas to get you started:
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;" id="home">
+  <img class="w3-image" src="https://www.w3schools.com/w3images/sneakers.jpg" alt="Zapatillas" width="1600" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Zapatillas</b></span> <span class="w3-hide-small w3-text-light-grey">Store</span></h1>
+  </div>
+</header>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Sobre Nosotros</h3>
+    <p>Nuestra tienda de zapatillas ofrece una amplia selección de calzado deportivo de alta calidad. Nos enorgullecemos de ofrecer las últimas tendencias en moda deportiva y brindar un excelente servicio al cliente.</p>
+  </div>
+
+  <!-- Shop Section -->
+  <div class="w3-container w3-padding-32" id="shop">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Tienda</h3>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="https://www.w3schools.com/w3images/sneakers3.jpg" alt="Zapatillas" style="width:100%">
+        <h3>Air Jordan</h3>
+        <p class="w3-opacity">Precio: $150</p>
+        <p>Zapatillas de baloncesto de alta calidad.</p>
+        <p><button class="w3-button w3-black w3-margin-bottom">Comprar</button></p>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="https://www.w3schools.com/w3images/sneakers1.jpg" alt="Zapatillas" style="width:100%">
+        <h3>Nike Air Max</h3>
+        <p class="w3-opacity">Precio: $120</p>
+        <p>Zapatillas de running con amortiguación de aire.</p>
+        <p><button class="w3-button w3-black w3-margin-bottom">Comprar</button></p>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="https://www.w3schools.com/w3images/sneakers2.jpg" alt="Zapatillas" style="width:100%">
+        <h3>Adidas Ultraboost</h3>
+        <p class="w3-opacity">Precio: $130</p>
+        <p>Zapatillas de estilo urbano con tecnología Boost.</p>
+        <p><button class="w3-button w3-black w3-margin-bottom">Comprar</button></p>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="https://www.w3schools.com/w3images/sneakers4.jpg" alt="Zapatillas" style="width:100%">
+        <h3>New Balance 990</h3>
+        <p class="w3-opacity">Precio: $140</p>
+        <p>Zapatillas clásicas con amortiguación premium.</p>
+        <p><button class="w3-button w3-black w3-margin-bottom">Comprar</button></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contacto</h3>
+    <p>Llena el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input" type="text" placeholder="Nombre" required name="Name">
+      <input class="w3-input w3-section" type="text" placeholder="Correo electrónico" required name="Email">
+      <input class="w3-input w3-section" type="text" placeholder="Mensaje" required name="Message">
+      <button class="w3-button w3-black w3-section" type="submit">ENVIAR MENSAJE</button>
+    </form>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
